@@ -4,8 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House Landing Page</title>
+    <!-- Google Font Cdn -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<!-- Tailwind Cdn -->
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   <!-- Fonawsome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-…" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    
+  <main class="max-w-screen-xl m-auto px-16 py-8 lg:px-28">
+   <header class="flex lg:gap-4">
+      <!-- Text Section -->
+         <Section>
+            <div>
+                <h1 class="font-bold text-5xl md:text-6xl ">It's good <br>
+tea time at The <br> Tea House</h1>
+                <p class="text-gray-500 my-8 ">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+                <div class="lg:flex flex">
+                    <button class="bg-gradient-to-r from-orange-300 to-red-700 p-4 rounded-lg text-white font-bold">Explore More
+                        <i class="fa-solid fa-arrow-down text-white rotate-210"></i>
+                    </button>
+                   
+                </div>
+            </div>
+         </Section >
+         <!-- Image Section -->
+          <section  class="relative">
+            <div>
+                <img class="w-full " src="/images/banner.png" alt="">
+            </div>
+            <!-- Card Section -->
+             <div>
+                <div class="flex justify-center rounded-lg gap-4   bg-white px-2 py-2 top-48 left-16 md:top-96 md:left-32 lg:top-96 lg:left-32 shadow-lg absolute ">
+                <!-- Icon -->
+                 <div><i class="fa-solid fa-star mt-5 text-orange-200"></i></div>
+                 <!-- Text -->
+                  <div>
+                    <h2 class="font-extrabold bold text-2xl">5.00</h2>
+                    <p class="text-gray-600">Trust Plot Ratings</p>
+                  </div>
+             </div>
+             </div>
+          </section>
+   </header>
+  </main>
 </body>
 </html>
